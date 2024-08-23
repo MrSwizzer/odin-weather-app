@@ -7,5 +7,16 @@
 		<link rel="stylesheet" href="style.css" />
 		<title>Odin Weather App</title>
 	</head>
-	<body></body>
+	<body>
+		<form id="searchForm">
+			<div class="form-group">
+				<label for="location">Location:</label>
+				<input type="text" id="location" name="location" required />
+				<span class="error-message" id="location-error"></span>
+			</div>
+			<button id="submitButton" type="submit">Search</button>
+		</form>
+
+		<div id="weatherData"></div>
+	</body>
 </html>
