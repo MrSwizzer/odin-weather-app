@@ -115,6 +115,7 @@ form.addEventListener('submit', (event) => {
 function changeDOM(processedWeatherData) {
 	// Select the weatherData div
 	const weatherDataDiv = document.getElementById('weatherData');
+	weatherDataDiv.style.display = 'block';
 	weatherDataDiv.innerHTML = ''; // Clear previous content
 
 	// Create and append the address section
